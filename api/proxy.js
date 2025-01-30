@@ -1,7 +1,7 @@
 const { createProxyMiddleware } = require("http-proxy-middleware");
 
 module.exports = (req, res) => {
-  let target = "https://game.azgame.io/unchill-guy-clicker/";//your website url
+  let target = "https://azgames.io/game/CookieClickerStraberry-V1/";//your website url
   //   if (
   //     req.url.startsWith("/api") ||
   //     req.url.startsWith("/auth") ||
