@@ -1,7 +1,7 @@
 const { createProxyMiddleware } = require("http-proxy-middleware");
 
 module.exports = (req, res) => {
-  let target = "https://kirka.io/";//your website url
+  let target = "https://games.crazygames.com/en_US/kour-io/index.html?aaConfigcatTest=false&abconfigcatabhra=false&v=1.320";//your website url
   //   if (
   //     req.url.startsWith("/api") ||
   //     req.url.startsWith("/auth") ||
